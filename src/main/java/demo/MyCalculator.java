@@ -25,6 +25,10 @@ public class MyCalculator {
 	{
 		System.out.println("Hello GFG!");
 	}
+	public void greetingFromJivesh()
+	{
+		System.out.println("Hello World!, This is Jivesh");
+	}
 
 	public static void main(String[] args) {
 		MyCalculator calc = new MyCalculator();
@@ -34,5 +38,6 @@ public class MyCalculator {
 		System.out.println("Div is :"+calc.div(20, 10));
 		calc.show();
 		calc.greeting();
+		calc.greetingFromJivesh();
 	}
 }
