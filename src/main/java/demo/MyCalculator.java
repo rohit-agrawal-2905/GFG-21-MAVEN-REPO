@@ -23,7 +23,15 @@ public class MyCalculator {
 	}
 	public void greeting()
 	{
+<<<<<<< HEAD
 		System.out.println("Hello World!!");
+=======
+		System.out.println("Hello GFG!");
+	}
+	public void greetingFromJivesh()
+	{
+		System.out.println("Hello World!, This is Jivesh");
+>>>>>>> branch 'master' of https://github.com/hkshitesh/GFG-21-MAVEN-REPO.git
 	}
 
 	public static void main(String[] args) {
@@ -34,5 +42,6 @@ public class MyCalculator {
 		System.out.println("Div is :"+calc.div(20, 10));
 		calc.show();
 		calc.greeting();
+		calc.greetingFromJivesh();
 	}
 }
