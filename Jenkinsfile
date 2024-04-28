@@ -21,13 +21,6 @@ pipeline
 				bat 'mvn clean'
 			}			
 		}
-		stage('Build Stage')
-		{
-			steps
-			{
-				bat 'mvn install'
-			}			
-		}
 		stage('Test Stage')
 		{
 			steps
@@ -35,11 +28,26 @@ pipeline
 				bat 'mvn test'
 			}			
 		}
+		stage('Build Stage')
+		{
+			steps
+			{
+				bat 'mvn install'
+			}			
+		}
+
 		stage('Success Stage')
 		{
 			steps
 			{
 				echo 'Successfully Build'
+			}			
+		}
+		stage('Final Stage Stage')
+		{
+			steps
+			{
+				echo 'CICD Pipeline Successfully completed '
 			}			
 		}
 	
