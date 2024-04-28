@@ -43,7 +43,7 @@ pipeline
 				echo 'Successfully Build'
 			}			
 		}
-		stage('Final Stage Stage')
+		stage('Final Stage')
 		{
 			steps
 			{
