@@ -50,6 +50,13 @@ pipeline
 				echo 'CICD Pipeline Successfully completed '
 			}			
 		}
+		stage('Java Version Stage')
+		{
+			steps
+			{
+				bat 'java --version'
+			}			
+		}
 	
 	}
 }
