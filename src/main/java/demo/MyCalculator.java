@@ -13,10 +13,6 @@ public class MyCalculator {
 	{
 		return a*b;
 	}
-	public int div(int a, int b)
-	{
-		return a/b;
-	}
 	public void show()
 	{
 		System.out.println("Hello GFG!");
